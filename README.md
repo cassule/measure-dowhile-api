@@ -20,3 +20,15 @@ Here are the technologies used in this project.
 ## How to use
 
 Login wuth your Github account and send a message, it will update the page imediately with your message, if ou share this page with others, you will see their messages in realtime too.
+
+## RUN
+
+To run the application you need to follow the steps below:
+
+- Clone this repository
+- In directory of project run `yarn install || npm install`
+- Copy .env.example to .env
+- Configure [Github OAuth App](https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps) and add JWT Secret in .env
+- Run in terminal `yarn dev || npm run dev`
+
+The application will run on port 400: `http://localhost:400` and then just use your Insomnia or Postman to test the requests.
